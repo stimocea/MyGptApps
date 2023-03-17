@@ -1,0 +1,4 @@
+GET http://localhost:5109/health
+
+# GET http://localhost:5109/weatherforecast
+# Authorization: Basic <insert base64 here>

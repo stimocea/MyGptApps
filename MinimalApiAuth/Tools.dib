@@ -1,0 +1,9 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!csharp
+
+var user = "";
+var pass = "";
+Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user}:{pass}"))
